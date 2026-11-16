@@ -1,0 +1,14 @@
+{
+  "employmentType": "contract",
+  "contractStart": "2026-09-01",
+  "contractEnd": "2026-12-31",
+  "workStart": "09:00",
+  "workEnd": "18:00",
+  "monthlyPay": 3000000,
+  "payday": 25,
+  "holidays": ["2026-12-25"],
+  "leaveDates": ["2026-11-20"],
+  "leaveDays": 1,
+  "leaveHoursTotal": 16,
+  "leaveHoursUsed": 4
+}

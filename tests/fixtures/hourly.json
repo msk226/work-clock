@@ -1,0 +1,9 @@
+{
+  "contractStart": "2026-11-02",
+  "contractEnd": "2026-11-27",
+  "workStart": "09:00",
+  "workEnd": "18:00",
+  "lunchMinutes": 60,
+  "hourlyPay": 10000,
+  "payday": 0
+}
