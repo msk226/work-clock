@@ -1,0 +1,10 @@
+# 실제 급여·계약 정보가 든 설정 파일은 절대 올리지 않는다
+config.json
+
+# 빌드 결과
+WorkClock
+WorkClock.app/
+build/
+*.tar.gz
+
+.DS_Store
