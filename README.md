@@ -68,7 +68,7 @@ open ~/Applications/WorkClock.app
 ### 소스에서 빌드
 
 ```sh
-git clone https://github.com/msk226/workclock.git
+git clone https://github.com/msk226/work-clock.git
 cd workclock
 ./build.sh          # ~/Applications/WorkClock.app에 설치
 open ~/Applications/WorkClock.app

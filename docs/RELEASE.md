@@ -14,7 +14,7 @@ git log -p | grep -iE "monthlyPay|annualSalary" # 가짜 값(tests/fixtures, REA
 ## 2. 소스 저장소 공개와 태그
 
 ```sh
-gh repo edit msk226/workclock --visibility public --accept-visibility-change-consequences
+gh repo edit msk226/work-clock --visibility public --accept-visibility-change-consequences
 git tag v1.0.0
 git push origin v1.0.0
 ```
@@ -24,7 +24,7 @@ git push origin v1.0.0
 GitHub가 만든 tarball의 해시를 써야 한다. 로컬 `git archive` 결과와 다를 수 있다.
 
 ```sh
-curl -fsSL https://github.com/msk226/workclock/archive/refs/tags/v1.0.0.tar.gz | shasum -a 256
+curl -fsSL https://github.com/msk226/work-clock/archive/refs/tags/v1.0.0.tar.gz | shasum -a 256
 ```
 
 ## 4. tap 저장소

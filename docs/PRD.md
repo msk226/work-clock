@@ -254,7 +254,7 @@ SF Symbols 아이콘과 값을 나란히 보여 준다. 1초마다 갱신한다.
 
 | 저장소 | 공개 범위 | 내용 |
 |---|---|---|
-| `msk226/workclock` | 개발 중 비공개 → v1.0.0 출시 때 공개 | 앱 소스, build.sh, README, LICENSE, docs |
+| `msk226/work-clock` | 개발 중 비공개 → v1.0.0 출시 때 공개 | 앱 소스, build.sh, README, LICENSE, docs |
 | `msk226/homebrew-tap` | 공개 (출시 때 생성) | `Formula/workclock.rb` |
 
 - formula는 설치하는 Mac에서 소스 tarball을 내려받는다. 소스 저장소가 비공개면 `brew install`이 실패하므로, 태그를 달기 전에 공개로 바꾼다.
