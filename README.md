@@ -4,6 +4,9 @@
 
 ![macOS 13+](https://img.shields.io/badge/macOS-13%2B-black?logo=apple)
 ![Swift](https://img.shields.io/badge/Swift-single%20file-F05138?logo=swift&logoColor=white)
+![AppKit](https://img.shields.io/badge/UI-AppKit-147EFB?logo=apple&logoColor=white)
+![ServiceManagement](https://img.shields.io/badge/Login%20Item-ServiceManagement-555555?logo=apple&logoColor=white)
+![Homebrew](https://img.shields.io/badge/install-Homebrew-FBB040?logo=homebrew&logoColor=black)
 ![License](https://img.shields.io/badge/license-MIT-blue)
 
 근무 조건을 설정 파일에 적어 두면 메뉴 막대에 오늘 근무 진행률과 오늘 번 돈이 1초마다 올라갑니다. 계약직이면 계약이 얼마나 지났는지도 보여 줍니다.
@@ -55,6 +58,7 @@
 
 ```sh
 brew tap msk226/tap
+brew trust msk226/tap   # 개인 tap이라 처음 한 번 신뢰 등록이 필요합니다
 brew install workclock
 ```
 

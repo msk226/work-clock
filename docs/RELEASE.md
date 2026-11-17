@@ -40,6 +40,7 @@ gh repo create msk226/homebrew-tap --public --source . --remote origin --push
 
 ```sh
 brew tap msk226/tap
+brew trust msk226/tap
 brew install workclock
 brew test workclock
 brew audit --strict --online workclock
